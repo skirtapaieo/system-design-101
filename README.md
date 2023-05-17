@@ -1,6 +1,11 @@
 # Global and fast code-deployment system
 design a code deployment system (part of exercise at Algoexpert/System design) 
 
+# System design (result of below) 
+
+![Alt text of the image](https://github.com/skirtapaieo/codedeployment/blob/main/systemdesign.png)
+
+
 # The initial questions 
 
 - The first questions is of course buy or build, but for the point of the exercise we will ask the questions needed for a design, and a later implementation. 
