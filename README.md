@@ -9,7 +9,7 @@ design a code deployment system (part of exercise at Algoexpert/System design)
 
 As shown later in the design phase, it is pretty complicated. 
 
-## Detailed system design questions 
+# Detailed system design questions 
 
 The following, and other questions will help us to understand the specific requirements and constraints of the code-deployment system, enabling you to design a solution the meets the needs of the organisation. 
 
