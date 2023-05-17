@@ -3,7 +3,13 @@ design a code deployment system (part of exercise at Algoexpert/System design)
 
 # The initial questions 
 
-The first questions is of course buy or build, but for the point of the exercise we will ask the questions needed for a design, and a later implementation. The second questions is whether this suits the company and the overall architecture and whether the resources are in place to, after the design, actually be able to build the system. As shown later in the design phase, it is pretty complicated. 
+- The first questions is of course buy or build, but for the point of the exercise we will ask the questions needed for a design, and a later implementation. 
+- The second questions is whether this suits the company and the overall architecture and 
+- whether the resources are in place to, after the design, actually be able to build the system. 
+
+As shown later in the design phase, it is pretty complicated. 
+
+## Detailed system design questions 
 
 The following, and other questions will help us to understand the specific requirements and constraints of the code-deployment system, enabling you to design a solution the meets the needs of the organisation. 
 
