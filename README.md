@@ -1,6 +1,33 @@
 # Global and fast code-deployment system
 design a code deployment system (part of exercise at Algoexpert/System design) 
 
+# Index
+
+- [System design](#system-design)
+- [The initial questions](#the-initial-questions)
+- [Detailed system design questions](#detailed-system-design-questions)
+  - [Scope and Scale](#scope-and-scale)
+  - [Target Environments](#target-environments)
+  - [Security Requirements](#security-requirements)
+  - [Versioning and Rollbacks](#versioning-and-rollbacks)
+  - [Deployment Workflow](#deployment-workflow)
+  - [Monitoring and Logging](#monitoring-and-logging)
+  - [Network and Infrastructure](#network-and-infrastructure)
+  - [Compliance and Governance](#compliance-and-governance)
+  - [Integration and Compatibility](#integration-and-compatibility)
+  - [Team and Roles](#team-and-roles)
+- [First pass of the system design](#first-pass-of-the-system-design)
+  - [Global Deployment](#global-deployment)
+  - [Deployment Frequency and Rollbacks](#deployment-frequency-and-rollbacks)
+  - [Uptime and Performance](#uptime-and-performance)
+  - [Integration with Code Reviews and Build Systems](#integration-with-code-reviews-and-build-systems)
+  - [Automation and Orchestration](#automation-and-orchestration)
+  - [Monitoring and Alerting](#monitoring-and-alerting)
+  - [Security and Access Control](#security-and-access-control)
+  - [Training and Documentation](#training-and-documentation)
+- [The system overview](#the-system-overview)
+
+
 # System design (result of below) 
 
 ![Alt text of the image](https://github.com/skirtapaieo/codedeployment/blob/main/systemdesign.png)
