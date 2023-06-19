@@ -3,7 +3,7 @@
 # System Design 
 
 - A few examples from Algoexpert/system design 
-- Most other are private or undocumented
+- Most other are private (ex. teamstream and magic) 
 
 - [Global and Fast Code Deployment system - Algoexpert] 
 
