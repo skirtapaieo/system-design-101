@@ -1,3 +1,11 @@
+
+
+# System Design 
+
+- A few examples from Algoexpert/system design 
+- Most other are private or undocumented
+  
+
 # Global and fast code-deployment system
 design a code deployment system (part of exercise at Algoexpert/System design) 
 
