@@ -5,7 +5,7 @@
 - A few examples from Algoexpert/system design 
 - Most other are private (ex. teamstream and magic) 
 
-- [Global and Fast Code Deployment system - Algoexpert](# 1. Global and fast code-deployment system)
+- [Global and Fast Code Deployment system - Algoexpert](#Global and fast code-deployment system)
 
 # 1. Global and fast code-deployment system
 design a code deployment system (part of exercise at Algoexpert/System design) 
