@@ -88,7 +88,7 @@
 
 ### sequence diagram 
 
-![Feed sequence diagram](https://github.com/skirtapaieo/system-design/feed-seq-diagram.png)
+![Feed sequence diagram](https://github.com/skirtapaieo/system-design-101/feed-seq-diagram.png)
 
 
 
