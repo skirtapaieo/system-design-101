@@ -88,6 +88,8 @@
 
 ### sequence diagram 
 
+![Feed sequence diagram](https://github.com/skirtapaieo/codedeployment/blob/main/systemdesign.png)
+
 
 
 ´´´
