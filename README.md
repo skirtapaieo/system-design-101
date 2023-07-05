@@ -172,6 +172,11 @@ RTUS -> FS : Update Friends' Feeds
 -  ~1 billion news feeds
 -  ~10 KB * 1000 * 1000^3 = 10 PB = 1000 * 10 TB
 
+### Algoexpert system diagram 
+
+https://github.com/skirtapaieo/system-design-101/blob/main/facebook-system-diagram.svg
+
+
 
 # Code-deployment system
 design a code deployment system (part of exercise at Algoexpert/System design) 
