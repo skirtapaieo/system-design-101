@@ -26,7 +26,7 @@
 
 - Ad-based Revenue Model: They all generate revenue by showing targeted ads to users based on their behavior, interests, and demographics.
 
-### Some examples 
+### Example platform  
 
 | Platform | Content Focus | Unique Features |
 | --- | --- | --- |
