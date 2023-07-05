@@ -7,7 +7,13 @@
 
 - [Global and Fast Code Deployment system - from Algoexpert](#1-code-deployment-system)  
 
-# 1. code-deployment system
+
+# Feed 
+
+
+
+
+# Code-deployment system
 design a code deployment system (part of exercise at Algoexpert/System design) 
 
 # Index
