@@ -155,7 +155,7 @@ RTUS -> FS : Update Friends' Feeds
 
 <br>
 
-### Technical solution for each service 
+### Requriements for each service
 
 | Service               | Description and Load                                                                                                                                                                           |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -165,7 +165,12 @@ RTUS -> FS : Update Friends' Feeds
 | Real-Time Update Service | Responsible for processing and propagating real-time status updates to relevant user feeds. Expected to handle 500M update events daily. Manages large volumes of real-time data. |
 
  
+##¤ Requirements from post to ... 
 
+ ~10 KB per post
+  ~1000 posts per news feed
+  ~1 billion news feeds
+  ~10 KB * 1000 * 1000^3 = 10 PB = 1000 * 10 TB
 
 
 # Code-deployment system
