@@ -157,43 +157,7 @@ RTUS -> FS : Update Friends' Feeds
 
 ### Technical solution for each service 
 
- User (100M daily users, logins/logouts/profile edits/friend requests)
-   |
-   |--- Authentication/Login, Profile Edits
-   |
-   V
- User Service (Handles millions of requests per day, manages profile info and friend lists)
-   |
-   |--- Requests User Feed
-   |
-   V
- Feed Service (Handles billions of requests per day, manages 50B+ daily posts)
-   |
-   |--- Requests Feed Ranking
-   |
-   V
- Ranking Service (Handles hundreds of millions to billions of requests per day, manages large amounts of metadata)
-   |
-   |--- Returns Ranked Feed
-   |
-   V
- Feed Service
-   |
-   |--- Returns User Feed
-   |
-   V
- User 
-   |
-   |--- Posts Status Update (1M daily updates)
-   |
-   V
- Feed Service 
-   |
-   |--- Sends Update to Friends' Feeds
-   |
-   V
- Real-Time Update Service (Handles 500M update events daily, manages large volumes of real-time data)
-
+ 
 
 
 
