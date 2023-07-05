@@ -72,21 +72,7 @@
 
 - Ads Service (optional): If ads are incorporated, this service will determine what ads to show to a user at any given time.
 
-### Non-functional requirements 
-
-- Scalability: Given the large number of users (100 million daily users, 1 million daily status updates), the system needs to be scalable. We could use a distributed database system and implement sharding and partitioning strategies to distribute data and load across multiple servers.
-
-- Feed Generation/Refreshing: For feed generation, consider a pull model where feeds are generated when users log in or refresh their feeds. Given that we want new posts to show up quickly, it's important to optimize the feed refreshing process. Caching can also be used to improve feed load times.
-
-- Data Persistence: To ensure that posts don't disappear, we need a robust data persistence strategy. This could involve database replication to protect against data loss if a single machine fails. Use of a distributed database with replication and failover mechanisms can help here.
-
-- Real-Time Updates: Given the requirement for fast propagation of new posts, using a publish-subscribe model for real-time updates could be a good solution. When a user posts a status update, a message is published to a topic, and all of the user's friends who are subscribed to that topic receive the message.
-
-- Global Audience: Given the global audience, latency and data locality should be considered. Users should be served from the nearest data center where possible. This can be achieved with a geo-distributed database and Content Delivery Network (CDN).
-
-- Ads Integration (optional): If ads are incorporated, they could be treated as special types of posts that get inserted into the feed by the Ads Service and then ranked along with regular posts by the Ranking Service.
-
-### sequence diagram 
+### Sequence diagram - ver 1.0 
 
 ![Feed sequence diagram](https://github.com/skirtapaieo/system-design-101/blob/main/feed-seq-diagram.png)
 
@@ -116,6 +102,25 @@ FS -> RTUS : Publish Update to Friends
 RTUS -> FS : Update Friends' Feeds
 @enduml
 ´´´
+
+### Non-functional requirements 
+
+- Scalability: Given the large number of users (100 million daily users, 1 million daily status updates), the system needs to be scalable. We could use a distributed database system and implement sharding and partitioning strategies to distribute data and load across multiple servers.
+
+- Feed Generation/Refreshing: For feed generation, consider a pull model where feeds are generated when users log in or refresh their feeds. Given that we want new posts to show up quickly, it's important to optimize the feed refreshing process. Caching can also be used to improve feed load times.
+
+- Data Persistence: To ensure that posts don't disappear, we need a robust data persistence strategy. This could involve database replication to protect against data loss if a single machine fails. Use of a distributed database with replication and failover mechanisms can help here.
+
+- Real-Time Updates: Given the requirement for fast propagation of new posts, using a publish-subscribe model for real-time updates could be a good solution. When a user posts a status update, a message is published to a topic, and all of the user's friends who are subscribed to that topic receive the message.
+
+- Global Audience: Given the global audience, latency and data locality should be considered. Users should be served from the nearest data center where possible. This can be achieved with a geo-distributed database and Content Delivery Network (CDN).
+
+- Ads Integration (optional): If ads are incorporated, they could be treated as special types of posts that get inserted into the feed by the Ads Service and then ranked along with regular posts by the Ranking Service.
+
+
+### Sequence diagram ver 2 - with notes related to non-functional ideas 
+
+
 
 
 <br>
