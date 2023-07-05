@@ -157,12 +157,11 @@ RTUS -> FS : Update Friends' Feeds
 
 ### Technical solution for each service 
 
-ice	Recommended Technical Solution	Facebook	Twitter	Spotify
+rvice	Recommended Technical Solution	Facebook	Twitter	Spotify
 User Service	Distributed Database (e.g., Cassandra, DynamoDB)	MySQL, proprietary services (e.g., TAO)	MySQL, Manhattan (Twitter's distributed DB)	PostgreSQL, Google Cloud Bigtable
 Feed Service	In-Memory Database (e.g., Redis), Message Brokers (e.g., Apache Kafka)	Memcached for caching, Apache Kafka for real-time streaming	Redis for caching, proprietary message bus system	Apache Cassandra, Google Pub/Sub
 Ranking Service	ML Framework (e.g., TensorFlow, PyTorch)	Proprietary ML frameworks	Proprietary ML frameworks	TensorFlow, Google Cloud ML Engine
 Real-Time Update Service	Real-time Message Broker (e.g., Apache Kafka, RabbitMQ)	Apache Kafka, proprietary pub/sub service	Proprietary message bus system	Apache Kafka, Google Pub/Sub
-
 
 
 
