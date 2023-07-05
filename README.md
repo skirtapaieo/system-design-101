@@ -86,6 +86,33 @@
 
 - Ads Integration (optional): If ads are incorporated, they could be treated as special types of posts that get inserted into the feed by the Ads Service and then ranked along with regular posts by the Ranking Service.
 
+### sequence diagram 
+
+´´´
+@startuml
+actor User
+participant "User Service" as US
+participant "Feed Service" as FS
+participant "Ranking Service" as RS
+participant "Real-Time Update Service" as RTUS
+
+User -> US : Login
+US -> FS : Request Feed
+FS -> US : Get Friends
+US -> FS : Return Friends
+FS -> FS : Get Status Updates from Friends
+FS -> RS : Rank Updates
+RS -> FS : Return Ranked Updates
+FS -> US : Return Feed
+US -> User : Display Feed
+
+User -> US : Post Status Update
+US -> FS : Add Status Update
+FS -> RTUS : Publish Update to Friends
+RTUS -> FS : Update Friends' Feeds
+@enduml
+´´´
+
 
 <br>
 
