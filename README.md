@@ -8,7 +8,33 @@
 - [Global and Fast Code Deployment system - from Algoexpert](#1-code-deployment-system)  
 
 
-# Feed 
+# News feed 
+
+## Initial questions related 
+
+### Key concepts? 
+
+- User-Generated Content (UGC): All these platforms rely heavily on content created and shared by their users.
+
+- Algorithmic Content Delivery: They all use algorithms to decide what to show in a user's feed based on factors like past user behavior, network connections, user preferences, trending topics, etc.
+
+- Social Interaction: Each of these platforms facilitates social interaction, allowing users to like, comment on, share, and interact with the content that they see.
+
+- Real-time Updates: All of these platforms provide near-real-time updates, with new content appearing in the feed as it is posted.
+
+- Customization: They all offer the ability for users to customize their feeds to some extent, based on who they follow or what topics they're interested in.
+
+- Ad-based Revenue Model: They all generate revenue by showing targeted ads to users based on their behavior, interests, and demographics.
+
+### Some examples 
+
+| Platform | Content Focus | Unique Features |
+| --- | --- | --- |
+| Spotify | Music and podcasts | User follows artists, playlists, or friends to get updates and recommendations; "Discover Weekly" playlist. |
+| Facebook | Mixed (text, photos, videos, links) | Combines updates from friends, groups, pages; features for private messaging, groups, and events. |
+| Instagram | Photo and video | Aesthetic appeal; photo filters; Instagram Stories, IGTV, and Shopping. |
+| Twitter | Text (also supports images, videos, links) | Character limit encourages concise messaging; real-time updates on current events; trending topics and hashtags. |
+| TikTok | Short-form video | Users can create and share videos up to 60 seconds long; viral dance challenges; educational content; powerful content recommendation algorithm. |
 
 
 
