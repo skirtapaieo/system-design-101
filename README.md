@@ -36,6 +36,7 @@
 | Twitter | Text (also supports images, videos, links) | Character limit encourages concise messaging; real-time updates on current events; trending topics and hashtags. |
 | TikTok | Short-form video | Users can create and share videos up to 60 seconds long; viral dance challenges; educational content; powerful content recommendation algorithm. |
 
+<br>
 
 
 
