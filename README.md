@@ -120,8 +120,38 @@ RTUS -> FS : Update Friends' Feeds
 
 ### Sequence diagram ver 2 - with notes related to non-functional ideas 
 
+![Feed sequence diagram](https://github.com/skirtapaieo/system-design-101/blob/main/feed-seq-diagram.png)
 
+https://github.com/skirtapaieo/system-design-101/blob/main/feed-seq-diagram.png
 
+´´´
+@startuml
+actor User
+participant "User Service" as US
+participant "Feed Service" as FS
+participant "Ranking Service" as RS
+participant "Real-Time Update Service" as RTUS
+
+User -> US : Login
+US -> FS : Request Feed
+note over FS : Scalability: Distributed database for user feeds
+FS -> US : Get Friends
+US -> FS : Return Friends
+FS -> FS : Get Status Updates from Friends
+FS -> RS : Rank Updates
+RS -> FS : Return Ranked Updates
+note over FS : Real-Time Updates: New posts propagate quickly
+FS -> US : Return Feed
+US -> User : Display Feed
+
+User -> US : Post Status Update
+note over US : Data Persistence: Status updates confirmed to user are reliably stored
+US -> FS : Add Status Update
+FS -> RTUS : Publish Update to Friends
+RTUS -> FS : Update Friends' Feeds
+@enduml
+
+´´´
 
 <br>
 
