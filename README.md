@@ -1,6 +1,6 @@
 
 
-# System Designs 
+# System Designs (13%)
 
 - A few examples from Algoexpert/system design 
 - Most other are private (ex. teamstream and magic) 
