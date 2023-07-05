@@ -120,9 +120,9 @@ RTUS -> FS : Update Friends' Feeds
 
 ### Sequence diagram ver 2 - with notes related to non-functional ideas 
 
-![Feed sequence diagram](https://github.com/skirtapaieo/system-design-101/blob/main/feed-seq-diagram.png)
+![Feed sequence diagram](https://github.com/skirtapaieo/system-design-101/blob/main/feed-seq-diagram-NFR.png)
 
-https://github.com/skirtapaieo/system-design-101/blob/main/feed-seq-diagram.png
+https://github.com/skirtapaieo/system-design-101/blob/main/feed-seq-diagram-nfr.png
 
 ´´´
 @startuml
