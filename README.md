@@ -157,6 +157,13 @@ RTUS -> FS : Update Friends' Feeds
 
 ### Technical solution for each service 
 
+| Service               | Description and Load                                                                                                                                                                           |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| User Service          | Handles user-related activities like authentication, profile edits, etc. Expected to handle millions of requests per day. Manages profile info and friend lists for 100M daily users.          |
+| Feed Service          | Responsible for serving user feeds and processing status updates. Expected to handle billions of requests per day. Manages potentially 50B+ daily posts.                                       |
+| Ranking Service       | Handles the ranking of posts for user feeds. Expected to handle hundreds of millions to billions of ranking requests daily. Manages large amounts of metadata associated with ranking.         |
+| Real-Time Update Service | Responsible for processing and propagating real-time status updates to relevant user feeds. Expected to handle 500M update events daily. Manages large volumes of real-time data. |
+
  
 
 
