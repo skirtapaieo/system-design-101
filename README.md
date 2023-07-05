@@ -26,7 +26,7 @@
 
 - Ad-based Revenue Model: They all generate revenue by showing targeted ads to users based on their behavior, interests, and demographics.
 
-### Example platform  
+### Example platform?   
 
 | Platform | Content Focus | Unique Features |
 | --- | --- | --- |
@@ -35,6 +35,32 @@
 | Instagram | Photo and video | Aesthetic appeal; photo filters; Instagram Stories, IGTV, and Shopping. |
 | Twitter | Text (also supports images, videos, links) | Character limit encourages concise messaging; real-time updates on current events; trending topics and hashtags. |
 | TikTok | Short-form video | Users can create and share videos up to 60 seconds long; viral dance challenges; educational content; powerful content recommendation algorithm. |
+
+
+### Functionality needed? 
+
+- Account Management
+- User Profile
+- Posts an Content Sharing
+- Feed and content discovery
+- Social interactions
+- Messaging
+- Groups and pages
+- Privacy and security
+- Accessibility and usability
+- Ad display
+
+### Main stakeholders 
+
+- End-users
+- Advertiseras
+- Content createors
+- Employees and developers
+- Regulatory authorities
+- Partners
+- Community and society at large 
+  
+
 
 <br>
 
